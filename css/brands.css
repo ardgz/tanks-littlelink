@@ -46,7 +46,8 @@ button {
   outline: none;
   border-radius: 8px;
   cursor: pointer;
-  
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 2px 8px 0px;
+  border-radius: 30px;
 }     
 button:hover,
 .button:focus {

@@ -79,8 +79,8 @@ button:hover,
 
 /* Default (this is great for your own brand color!) */
 .button.button-default {
-  color: #ffffff;
-  background-color: #2457F5;
+  color: #efefef;
+  background-color: #4211a4;
 }
 .button.button-default:hover,
 .button.button-default:focus {
@@ -1054,6 +1054,16 @@ button:hover,
 }
 .button.button-x:hover,
 .button.button-x:focus {
+  filter: brightness(90%);
+}
+
+/* Twitter */
+.button.button-twitter {
+  color: #FFFFFF;
+  background-color: #1DA1F2;
+}
+.button.button-twitter:hover,
+.button.button-twitter:focus {
   filter: brightness(90%);
 }
 
